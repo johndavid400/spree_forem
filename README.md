@@ -1,21 +1,20 @@
 SpreeForem
 ==========
+This extension for spree commerce aims to provide easy integration with the popular rails forum engine, Forem.
 
-Introduction goes here.
+Initially, this means simply adding the fields to the Admin Spree::User form that are added to the User model during the Forem installation process "forem_state" and "forem_admin".
 
+Setup:
+======
 
-Example
-=======
+add the following to your Gemfile:
 
-Example goes here.
+    gem 'spree_forem', :git => 'git://github.com/johndavid400/spree_forem.git'
 
-Testing
--------
+then run bundle install:
 
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
+    bundle install
 
-    $ bundle
-    $ bundle exec rake test app
-    $ bundle exec rspec spec
+That should be it! Now you can go check the form for Users in the admin panel and you should see 2 additional form fields.
 
-Copyright (c) 2012 [name of extension creator], released under the New BSD License
+Copyright (c) 2012 johndavid400, released under the New BSD License
