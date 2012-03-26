@@ -1,0 +1,11 @@
+<%= f.field_container :forem_state do %>
+  <%= f.label :forem_state, t(:forem_state) %><br />
+  <%= f.text_field :forem_state %>
+  <%= f.error_message_on :forem_state %>
+<% end %>
+
+<%= f.field_container :forem_admin do %>
+  <%= f.label :forem_admin, t(:forem_admin) %><br />
+  <%= f.check_box :forem_admin %>
+  <%= f.error_message_on :forem_admin %>
+<% end %>
