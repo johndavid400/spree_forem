@@ -1,3 +1,3 @@
 Spree::User.class_eval do
-    attr_accessible :forem_admin, :forem_state
+    attr_accessible :forem_state
 end
