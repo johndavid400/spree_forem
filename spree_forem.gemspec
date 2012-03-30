@@ -3,16 +3,16 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_forem'
   s.version     = '1.0.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
-  s.required_ruby_version = '>= 1.8.7'
+  s.summary     = 'This is a gem used to integrate Forem with Spree'
+  s.description = 'Once installed, the gem will add forem related fields to the Spree::User admin form so you can manage Forem users from the Spree Admin panel (Users)'
+  s.required_ruby_version = '>= 1.9.2'
 
-  # s.author            = 'You'
-  # s.email             = 'you@example.com'
-  # s.homepage          = 'http://www.spreecommerce.com'
+   s.author            = 'JD Warren'
+   s.email             = 'jd@isotope11.com'
+   s.homepage          = 'http://www.github.com/johndavid400/spree_forem'
 
-  #s.files         = `git ls-files`.split("\n")
-  #s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files         = `git ls-files`.split("\n")
+  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
