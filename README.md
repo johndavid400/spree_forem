@@ -26,6 +26,9 @@ That should be it! Now you can go check the form for Users in the admin panel an
 
     rails s
 
+Navigate to:
+
+    localhost:3000/admin/users/
 
 
 Copyright (c) 2012 johndavid400, released under the New BSD License
