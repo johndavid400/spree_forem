@@ -30,5 +30,6 @@ Navigate to:
 
     localhost:3000/admin/users/
 
+Try creating or editing a user and you should see two Forem fields.
 
 Copyright (c) 2012 johndavid400, released under the New BSD License
