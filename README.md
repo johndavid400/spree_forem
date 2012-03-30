@@ -7,6 +7,8 @@ Initially, this means simply adding the fields to the Admin Spree::User form tha
 Setup:
 ======
 
+You MUST have a running spree store AND Forem installed in your spree project for this gem to work or be useful.
+
 add the following to your Gemfile:
 
     gem 'spree_forem', :git => 'git://github.com/johndavid400/spree_forem.git'
