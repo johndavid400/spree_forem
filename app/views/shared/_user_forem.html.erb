@@ -1,6 +1,6 @@
 <%= f.field_container :forem_state do %>
   <%= f.label :forem_state, t(:forem_state) %><br />
-  <%= f.text_field :forem_state %>
+  <%= f.select :forem_state, options_for_select([["Approved", "approved"], ["Pending", "pending_review"]], @user.forem_state) %>
   <%= f.error_message_on :forem_state %>
 <% end %>
 
@@ -9,3 +9,5 @@
   <%= f.check_box :forem_admin %>
   <%= f.error_message_on :forem_admin %>
 <% end %>
+
+
